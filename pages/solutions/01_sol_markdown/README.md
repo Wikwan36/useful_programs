@@ -131,3 +131,6 @@ $$
 
 
 Te trzy wzory będą wyświetlane jako wycentrowane równania matematyczne, jeśli Twój podgląd Markdown obsługuje MathJax lub KaTeX i renderuje bloki $$ ... $$.
+
+![Wykres](wykres.png)
+
