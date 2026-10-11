@@ -1,5 +1,5 @@
 # Jakiś ciekawy tytuł 
-## Nabój ##* LM 
+## Nabój 338 LM 
 ### .338 Lapua Magnum (8,6 × 70 mm lub 8,58 × 70 mm) – jest nabojem karabinowym centralnego zapłonu, bez kryzy wystającej przeznaczonym dla karabinów wyborowych. Z uwagi na wysokie parametry balistyczne zdobywa także dużą popularność jako nabój do broni myśliwskiej. Projektantem naboju jest fińskie przedsiębiorstwo Lapua.
 
 ### Nabój .338 Lapua Magnum jest kompromisem pomiędzy standardowymi nabojami NATO o kalibrach 7,62 mm NATO i 12,7 mm NATO pozwalającym zbudować karabin wyborowy o zasięgu skutecznym powyżej 1000 m, a jednocześnie wymiarach i masie mniejszej niż wkbw. Obecnie produkowana jest szeroka gama pocisków kalibru .338 przeznaczonych dla tego naboju. W wojsku najczęściej stosowany jest klasyczny nabój pełnopłaszczowy, rzadziej przeciwpancerny pocisk posiadający przebijalność 20 mm RHA z dystansu 200 m. Snajperzy policyjni i myśliwi używają dodatkowo amunicji o zwiększonej zdolności obalającej. 
@@ -138,22 +138,10 @@ Te trzy wzory będą wyświetlane jako wycentrowane równania matematyczne, jeś
 
 - 0D struktura
 - ruch elektronu ograniczony w trzech wymiarach
-- najprostszy model: *quantum box* – kropka kwantowa w kształcie sześcianu, na zewnątrz potencjał nieskończony
+- najprostszy model – quantum box – kropka kwantowa w kształcie sześcianu, na zewnątrz potencjał nieskończony
 - równanie Schrödingera:
 
-$$
--\frac{\hbar^2}{2m}
-\left(
-\frac{\partial^2}{\partial x^2}
-+
-\frac{\partial^2}{\partial y^2}
-+
-\frac{\partial^2}{\partial z^2}
-\right)
-\Psi(x,y,z)
-=
-E\Psi(x,y,z)
-$$
+$-\frac{\hbar^2}{2m}\left(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}\right)\Psi(x,y,z)=E\Psi(x,y,z)$
 
 - energia:
 
@@ -170,7 +158,7 @@ E =
 $$
 
 - stany energetyczne są zdegenerowane
-- sferyczna kropka kwantowa ⇒ rozłożenie funkcji falowej $\Psi$ na część radialną i kątową (podobieństwo do zagadnienia atomu wodoru w mechanice kwantowej)
-- rozwiązanie: funkcje Bessela typu $J_{l+\frac{1}{2}}$
+- sferyczna kropka kwantowa ⇒ rozłożenie funkcji falowej Ψ na część radialną i kątową (podobieństwo do zagadnienia atomu wodoru w mechanice kwantowej)
+  - rozwiązanie – funkcje Bessela typu \(J_{l+1/2}\)
 
 # 12. Porównać własności heterostruktur, drutów i kropek kwantowych.
