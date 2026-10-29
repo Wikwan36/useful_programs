@@ -68,48 +68,51 @@ masa_kg = masa_g / 1000
 energia = 0.5 * masa_kg * predkosc**2
 
 print(f"Energia pocisku: {energia:.0f} J")
-
+```
 
 Przykładowy wynik:
 
-Energia pocisku: 6561 J
+`Energia pocisku: 6561 J`
 
-Szacunkowy czas lotu do celu
+### Szacunkowy czas lotu do celu
+
+Kod oblicza przybliżony czas przebycia dystansu przy założeniu stałej prędkości.
+
+```python
 # Przybliżony czas lotu na dystansie 1000 m
 
 dystans = 1000      # m
 predkosc = 900      # m/s
 
 czas_lotu = dystans / predkosc
-
 print(f"Czas lotu: {czas_lotu:.2f} s")
-
+```
 
 Wynik:
 
-Czas lotu: 1.11 s
-```
+`Czas lotu: 1.11 s`
+
 ### Energia kinetyczna pocisku
-2
+
  
-3
-$E = \frac{1}{2}mv^2$
-4
+
+$$E = \frac{1}{2}mv^2$$
+
  
-5
+
 ### Pęd pocisku
-6
+
  
-7
-$p = mv$
-8
+
+$$p = mv$$
+
  
-9
+
 ### Opad pocisku (bez uwzględnienia oporu powietrza)
-10
+
  
-11
-$h = \frac{1}{2}gt^2$
+
+$$h = \frac{1}{2}gt^2$$
 
 ### Zasięg maksymalny (rzut ukośny bez oporu powietrza)
 
@@ -130,35 +133,8 @@ T = \frac{2v_0 \sin(\theta)}{g}
 $$
 
 
-Te trzy wzory będą wyświetlane jako wycentrowane równania matematyczne, jeśli Twój podgląd Markdown obsługuje MathJax lub KaTeX i renderuje bloki $$ ... $$.
+Te trzy wzory będą wyświetlane jako wycentrowane równania matematyczne, jeśli Twój podgląd Markdown obsługuje MathJax lub KaTeX i renderuje bloki `$$ ... $$`.
 
 ![Wykres](wykres.png)
 
-# 11. Co to są kropki kwantowe i jakie mają własności?
-
-- 0D struktura
-- ruch elektronu ograniczony w trzech wymiarach
-- najprostszy model – quantum box – kropka kwantowa w kształcie sześcianu, na zewnątrz potencjał nieskończony
-- równanie Schrödingera:
-
-$-\frac{\hbar^2}{2m}\left(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}\right)\Psi(x,y,z)=E\Psi(x,y,z)$
-
-- energia:
-
-$$
-E =
-\frac{\hbar^2\pi^2}{2m}
-\left(
-\frac{n_x^2}{L_x^2}
-+
-\frac{n_y^2}{L_y^2}
-+
-\frac{n_z^2}{L_z^2}
-\right)
-$$
-
-- stany energetyczne są zdegenerowane
-- sferyczna kropka kwantowa ⇒ rozłożenie funkcji falowej Ψ na część radialną i kątową (podobieństwo do zagadnienia atomu wodoru w mechanice kwantowej)
-  - rozwiązanie – funkcje Bessela typu \(J_{l+1/2}\)
-
-# 12. Porównać własności heterostruktur, drutów i kropek kwantowych.
+[Transkrypcja notatki o kropkach kwantowych](transkrypcja.md)
