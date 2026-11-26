@@ -96,7 +96,9 @@ Wynik:
 
  
 
-$$E = \frac{1}{2}mv^2$$
+$$
+E = \frac{1}{2}mv^2
+$$
 
  
 
@@ -104,7 +106,9 @@ $$E = \frac{1}{2}mv^2$$
 
  
 
-$$p = mv$$
+$$
+p = mv
+$$
 
  
 
@@ -112,7 +116,9 @@ $$p = mv$$
 
  
 
-$$h = \frac{1}{2}gt^2$$
+$$
+h = \frac{1}{2}gt^2
+$$
 
 ### Zasięg maksymalny (rzut ukośny bez oporu powietrza)
 
@@ -132,8 +138,6 @@ $$
 T = \frac{2v_0 \sin(\theta)}{g}
 $$
 
-
-Te trzy wzory będą wyświetlane jako wycentrowane równania matematyczne, jeśli Twój podgląd Markdown obsługuje MathJax lub KaTeX i renderuje bloki `$$ ... $$`.
 
 ![Wykres](wykres.png)
 
