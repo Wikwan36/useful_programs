@@ -5,8 +5,7 @@
 ## Konkretny prompt
 
 ```text
-11. Co to są kropki kwantowe i jakie mają własności?
-12. Porównać własności heterostruktur, drutów i kropek kwantowych.
+Weź zrzut ekranu zrzut.png z ręcznymi notatkami z folderu, a następnie użyj narzędzia AI do przepisania informacji (transkrypcji) widocznej na zrzucie do kodu Markdown. Wynik zapisz jako transkrypcja.md.
 ```
 
 ## Finalna notatka
